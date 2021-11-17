@@ -23,7 +23,7 @@ _✨ 基于itchat-uos的B站动态推送与开播提醒机器人 ✨_
 
 
 ## 即刻开始
-
+python版本要求：<=3.9
 ### 如何使用
    1. pip install -r requirements.txt
    2. python main.py
