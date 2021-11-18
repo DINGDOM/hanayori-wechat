@@ -56,6 +56,16 @@ python版本要求：<=3.9 >=3.7
 你可以直接提交issue，或者发送邮件到：kano@hanayori.top
 ### FAQ
 1. Q：手机如果登出，本程序也会登出？
-   A：这是由于微信网页版本身的协议问题导致的，并非是Bug。你可以使用多开助手，手机登录多个微信号，然后杀掉机器人账号的应用后台，这不会使机器人登出。
+ - A：这是由于微信网页版本身的协议问题导致的，并非是Bug。你可以使用多开助手，手机登录多个微信号，然后杀掉机器人账号的应用后台，这不会使机器人登出。
 2. Q：为什么群聊更名后推送列表为空？
-   A：同样是由于微信网页版协议的局限性所导致，目前没有解决办法。
+ - A：同样是由于微信网页版协议的局限性所导致，目前没有解决办法。
+3. Q: 第二次启动无法登录？
+ - A：删除itchat.pkl文件后再重新启动，或者直接将main.py中的hotReload=True改为hotReload=False
+4. Q：二维码在终端显示不全？
+ - A：将main.py中的enableCmdQR=2改为enableCmdQR=True
+   
+### 效果展示
+
+![效果1](https://cdn.jsdelivr.net/gh/kanomahoro/images@main/20211118.jpg)
+
+![效果2](https://cdn.jsdelivr.net/gh/kanomahoro/images@main/20211118_1.jpg)
